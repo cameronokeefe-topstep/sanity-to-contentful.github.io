@@ -58,3 +58,8 @@ td  {
   border: 1px solid #333;
   border-collapse: collapse;
 }
+
+pre.highlight{
+  padding:20px;
+  background-color: black;
+}
