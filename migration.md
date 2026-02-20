@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My Page
+title: Migration
 ---
 
 # Migration Overview: Sanity → Contentful
@@ -18,7 +18,8 @@ title: My Page
 ---
 
 # 1. Executive Summary
-**Summary:** High-level rationale for migrating, outlining business drivers, expected benefits, and strategic alignment.
+
+This section defines the business rationale for migration and clarifies what the organization expects to gain. It ensures stakeholders are aligned on goals such as editorial autonomy, governance improvements, scalability, and long-term platform strategy before technical work begins.
 
 ## Purpose of Migration
 - Improve editorial autonomy  
@@ -31,7 +32,8 @@ title: My Page
 ---
 
 # 2. Strategic Considerations
-**Summary:** Evaluates how the migration supports long-term business goals, marketing needs, and operational scale.
+
+This section evaluates how the CMS decision supports broader business objectives. It connects platform capabilities to marketing speed, multi-brand management, compliance requirements, and long-term operational scale.
 
 - Marketing velocity  
   <a href="https://www.contentful.com/solutions/marketing/" target="_blank" rel="noopener noreferrer">Marketing Solutions</a>  
@@ -43,7 +45,8 @@ title: My Page
 ---
 
 # 3. Technical Considerations
-**Summary:** Covers schema redesign, API changes, data migration complexity, and frontend refactoring requirements.
+
+This section outlines the engineering impact of migration. It is critical for estimating timeline, complexity, and resource allocation, including schema redesign, API transitions, validation rebuilding, and frontend refactoring.
 
 - Replace GROQ  
   <a href="https://www.sanity.io/docs/groq" target="_blank" rel="noopener noreferrer">GROQ</a>  
@@ -57,7 +60,8 @@ title: My Page
 ---
 
 # 4. Editorial Experience Comparison
-**Summary:** Compares flexibility vs structure, and developer-heavy customization vs opinionated UI configuration.
+
+This section compares how each platform supports content authors. Editorial usability directly affects marketing productivity, onboarding time, and long-term content governance consistency.
 
 **Sanity**
 - <a href="https://www.sanity.io/docs/studio" target="_blank" rel="noopener noreferrer">Customizable Studio</a>  
@@ -70,7 +74,8 @@ title: My Page
 ---
 
 # 5. Governance & Enterprise Controls
-**Summary:** Reviews permissions, environments, compliance features, and enterprise reliability expectations.
+
+This section addresses risk management and operational maturity. For organizations with compliance requirements, multiple teams, or staged release workflows, governance capabilities are often a deciding factor.
 
 - <a href="https://www.contentful.com/help/roles-and-permissions/" target="_blank" rel="noopener noreferrer">Roles & Permissions</a>  
 - <a href="https://www.contentful.com/developers/docs/concepts/multiple-environments/" target="_blank" rel="noopener noreferrer">Environments</a>  
@@ -79,7 +84,8 @@ title: My Page
 ---
 
 # 6. Data Migration Plan
-**Summary:** Outlines exporting from Sanity, transforming content, importing via API, and validating references.
+
+This section defines how existing content will be exported, transformed, and imported. It is essential for protecting data integrity, preserving relationships between entries, and minimizing disruption during cutover.
 
 - Export data  
   <a href="https://www.sanity.io/docs/exporting-data" target="_blank" rel="noopener noreferrer">Sanity Export</a>  
@@ -89,7 +95,8 @@ title: My Page
 ---
 
 # 7. Frontend & API Changes
-**Summary:** Details how application code must adapt to new APIs, SDKs, preview systems, and caching strategies.
+
+This section highlights application-level changes required to consume Contentful APIs. It impacts performance, caching strategies, preview workflows, and developer maintenance patterns.
 
 - GraphQL usage  
   <a href="https://www.contentful.com/developers/docs/references/graphql/" target="_blank" rel="noopener noreferrer">GraphQL API</a>  
@@ -99,7 +106,8 @@ title: My Page
 ---
 
 # 8. Cost & Licensing
-**Summary:** Evaluates subscription pricing, API metering, seat costs, and long-term total cost of ownership.
+
+This section evaluates financial implications beyond subscription fees, including API metering, seat-based pricing, and long-term total cost of ownership compared to maintaining a customized Sanity implementation.
 
 - Pricing  
   <a href="https://www.contentful.com/pricing/" target="_blank" rel="noopener noreferrer">Pricing</a>  
@@ -109,7 +117,8 @@ title: My Page
 ---
 
 # 9. Risks & Tradeoffs
-**Summary:** Identifies flexibility loss, vendor lock-in, potential cost increases, and architectural constraints.
+
+This section identifies potential downsides of migration, including reduced schema flexibility, vendor lock-in, and possible scaling costs. Understanding tradeoffs helps prevent unintended architectural constraints.
 
 - Loss of schema-as-code  
   <a href="https://www.sanity.io/docs/schema-types" target="_blank" rel="noopener noreferrer">Schema Types</a>  
@@ -119,14 +128,12 @@ title: My Page
 ---
 
 # 10. Decision Framework & Recommendation
-**Summary:** Provides criteria to determine whether migration aligns with organizational priorities and long-term digital strategy.
+
+This section provides structured criteria for leadership to evaluate whether migration aligns with organizational priorities. It ensures the decision is based on long-term strategy rather than short-term feature comparisons.
 
 - Governance priority → Contentful  
   <a href="https://www.contentful.com/help/roles-and-permissions/" target="_blank" rel="noopener noreferrer">Roles & Permissions</a>  
 - Flexibility priority → Sanity  
   <a href="https://www.sanity.io/docs/schema-types" target="_blank" rel="noopener noreferrer">Schema Types</a>  
-
 - Compare total cost  
   <a href="https://www.contentful.com/pricing/" target="_blank" rel="noopener noreferrer">Pricing</a>  
-
-
