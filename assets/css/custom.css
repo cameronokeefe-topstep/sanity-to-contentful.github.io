@@ -47,3 +47,9 @@ hr {
   border-color: #333;
   margin: 30px 0;
 }
+
+td  {
+  padding:10px;
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
