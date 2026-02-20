@@ -20,6 +20,10 @@ main {
   padding:60px;
 }
 
+nav {
+  margin-top:20px;
+}
+
 nav a{
   display: inline-block;
   margin: 5px 10px;

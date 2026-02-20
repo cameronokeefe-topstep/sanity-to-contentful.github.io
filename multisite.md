@@ -3,6 +3,72 @@ layout: default
 title: Multisite
 ---
 
+# 🌐 Multi-Site in Sanity
+
+Sanity is extremely well suited for multi-brand architecture because of its flexible data modeling and centralized content backend.
+
+---
+
+## 1️⃣ Single Dataset, Multi-Site Model
+
+With a single dataset, you can support multiple brands cleanly by modeling site context into your content.
+
+You can:
+
+- Add a `site` field to content documents  
+- Use site-specific document types  
+- Scope queries per site  
+- Share components across brands  
+- Separate themes in the frontend  
+
+This allows you to manage:
+
+- Shared blog content  
+- Brand-specific landing pages  
+- Shared product data  
+- Separate SEO configurations  
+
+All inside one Studio.
+
+This approach keeps operations centralized while allowing content and presentation to vary per brand.
+
+---
+
+## 2️⃣ Multiple Datasets (If Needed)
+
+If stronger separation is required, Sanity supports multiple datasets.
+
+You can:
+
+- Create one dataset per brand  
+- Use one Studio to manage multiple datasets  
+- Share schemas across brands  
+- Maintain separate publishing environments  
+
+This provides isolation where necessary while keeping development and governance centralized.
+
+---
+
+## 3️⃣ Flexible Theming
+
+Because your frontend controls presentation:
+
+- You can use the same content model across brands  
+- Apply different styling layers per brand  
+- Reuse layout components  
+- Reduce developer duplication  
+
+Sanity’s structured content approach makes cross-brand reuse clean and efficient, especially for teams using modern frontend frameworks like Next.js.
+
+---
+
+## Why This Matters
+
+Sanity allows you to scale multi-site architecture without forcing structural duplication.  
+You control whether separation happens at the content layer (dataset) or presentation layer (frontend), giving you architectural flexibility as your brand portfolio grows.
+
+---
+
 # 🌐 Multi-Site in Contentful
 
 Contentful supports multi-site architectures through:
