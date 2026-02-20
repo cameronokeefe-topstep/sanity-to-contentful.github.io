@@ -1,7 +1,7 @@
 <nav>
-  <a href="{{ '/' | relative_url }}" class="{% if page.active %} active{% endif %}">Overview</a>
-  <a href="{{ '/arguments' | relative_url }}" class="{% if page.active %} active{% endif %}">Arguments</a>
-  <a href="{{ '/multisite' | relative_url }}" class="{% if page.active %} active{% endif %}">Multisite</a>
-  <a href="{{ '/migration' | relative_url }}" class="{% if page.active %} active{% endif %}">Migration</a>
-  <a href="{{ '/timeline' | relative_url }}" class="{% if page.active %} active{% endif %}">Timeline</a>
+  <a href="{{ '/' | relative_url }}" class="{% if page.title == 'Overview' %} active{% endif %}">Overview</a>
+  <a href="{{ '/arguments' | relative_url }}" class="{% if page.title == 'Arguments' %} active{% endif %}">Arguments</a>
+  <a href="{{ '/multisite' | relative_url }}" class="{% if page.title == 'Multisite' %} active{% endif %}">Multisite</a>
+  <a href="{{ '/migration' | relative_url }}" class="{% if page.title == 'Migration' %} active{% endif %}">Migration</a>
+  <a href="{{ '/timeline' | relative_url }}" class="{% if page.title == 'Timeline' %} active{% endif %}">Timeline</a>
 </nav>

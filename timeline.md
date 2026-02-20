@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Timeline
-active: true
 ---
 
 # Realistic Migration Timeline (2 Developers)

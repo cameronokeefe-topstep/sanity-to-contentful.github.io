@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Arguments
-active: true
 ---
 
 ### What Sanity has to say:

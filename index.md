@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Overview
-active: true
 ---
 
 # Core Positioning Differences

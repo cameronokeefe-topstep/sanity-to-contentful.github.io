@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Multisite
-active: true
 ---
 
 # 🌐 Multi-Site in Sanity
