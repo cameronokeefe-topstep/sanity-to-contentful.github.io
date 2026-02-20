@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Migration
+active: true
 ---
 
 # Migration Overview: Sanity → Contentful
