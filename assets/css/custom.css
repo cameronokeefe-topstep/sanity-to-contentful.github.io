@@ -49,7 +49,8 @@ hr {
 }
 
 td  {
-  padding:10px;
+  padding:10px 15px;
+  margin:0;
   border: 1px solid #333;
   border-collapse: collapse;
 }
