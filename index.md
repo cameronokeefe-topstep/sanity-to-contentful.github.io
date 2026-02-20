@@ -6,34 +6,34 @@ title: My Page
 # Migration Overview: Sanity → Contentful
 
 > Key Vendor References  
-> - Sanity Documentation: https://www.sanity.io/docs  
-> - Sanity GROQ: https://www.sanity.io/docs/groq  
-> - Sanity Data Export: https://www.sanity.io/docs/exporting-data  
-> - Contentful Documentation: https://www.contentful.com/developers/docs/  
-> - Contentful GraphQL API: https://www.contentful.com/developers/docs/references/graphql/  
-> - Contentful Content Modeling Guide: https://www.contentful.com/developers/docs/concepts/data-model/  
-> - Contentful Roles & Permissions: https://www.contentful.com/help/roles-and-permissions/  
-> - Contentful Environments: https://www.contentful.com/developers/docs/concepts/multiple-environments/  
+> - <a href="https://www.sanity.io/docs" target="_blank" rel="noopener noreferrer">Sanity Documentation</a>  
+> - <a href="https://www.sanity.io/docs/groq" target="_blank" rel="noopener noreferrer">Sanity GROQ</a>  
+> - <a href="https://www.sanity.io/docs/exporting-data" target="_blank" rel="noopener noreferrer">Sanity Data Export</a>  
+> - <a href="https://www.contentful.com/developers/docs/" target="_blank" rel="noopener noreferrer">Contentful Developer Documentation</a>  
+> - <a href="https://www.contentful.com/developers/docs/references/graphql/" target="_blank" rel="noopener noreferrer">Contentful GraphQL API</a>  
+> - <a href="https://www.contentful.com/developers/docs/concepts/data-model/" target="_blank" rel="noopener noreferrer">Contentful Content Modeling Guide</a>  
+> - <a href="https://www.contentful.com/help/roles-and-permissions/" target="_blank" rel="noopener noreferrer">Contentful Roles & Permissions</a>  
+> - <a href="https://www.contentful.com/developers/docs/concepts/multiple-environments/" target="_blank" rel="noopener noreferrer">Contentful Environments</a>  
 
 ---
 
 # 1. Executive Summary
 
 ## Purpose of Migration
-- Improve editorial autonomy
-- Reduce developer dependency
+- Improve editorial autonomy  
+- Reduce developer dependency  
 - Standardize content modeling across teams  
-  (See: Content Modeling Guide)
+  (<a href="https://www.contentful.com/developers/docs/concepts/data-model/" target="_blank" rel="noopener noreferrer">Content Modeling Guide</a>)  
 - Enable stronger enterprise governance and integrations  
-  (See: Roles & Permissions)
+  (<a href="https://www.contentful.com/help/roles-and-permissions/" target="_blank" rel="noopener noreferrer">Roles & Permissions</a>)  
 
 ## High-Level Benefits
 - More structured, opinionated content model  
-  https://www.contentful.com/developers/docs/concepts/data-model/
-- Mature enterprise feature set
-- Strong ecosystem and partner network
+  <a href="https://www.contentful.com/developers/docs/concepts/data-model/" target="_blank" rel="noopener noreferrer">Content Modeling Documentation</a>  
+- Mature enterprise feature set  
+- Strong ecosystem and partner network  
 - Built-in governance and role controls  
-  https://www.contentful.com/help/roles-and-permissions/
+  <a href="https://www.contentful.com/help/roles-and-permissions/" target="_blank" rel="noopener noreferrer">Roles & Permissions</a>  
 
 ---
 
@@ -42,16 +42,16 @@ title: My Page
 ## 2.1 Business Drivers
 
 - **Marketing velocity**  
-  https://www.contentful.com/solutions/marketing/
+  <a href="https://www.contentful.com/solutions/marketing/" target="_blank" rel="noopener noreferrer">Marketing Solutions Overview</a>  
 
 - **Multi-site management**  
-  https://www.contentful.com/developers/docs/concepts/multiple-environments/
+  <a href="https://www.contentful.com/developers/docs/concepts/multiple-environments/" target="_blank" rel="noopener noreferrer">Multiple Environments</a>  
 
 - **Governance & compliance**  
-  https://www.contentful.com/help/roles-and-permissions/
+  <a href="https://www.contentful.com/help/roles-and-permissions/" target="_blank" rel="noopener noreferrer">Roles & Permissions</a>  
 
 - **Scalability**  
-  https://www.contentful.com/developers/docs/references/content-delivery-api/
+  <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/" target="_blank" rel="noopener noreferrer">Content Delivery API</a>  
 
 ---
 
@@ -59,18 +59,18 @@ title: My Page
 
 ### Editors
 - Structured editorial UI  
-  https://www.contentful.com/developers/docs/concepts/editor-interfaces/
-- Easier onboarding with predefined models
+  <a href="https://www.contentful.com/developers/docs/concepts/editor-interfaces/" target="_blank" rel="noopener noreferrer">Editor Interfaces</a>  
+- Easier onboarding with predefined models  
 
 ### Developers
 - Move from schema-as-code  
-  https://www.sanity.io/docs/schema-types
+  <a href="https://www.sanity.io/docs/schema-types" target="_blank" rel="noopener noreferrer">Sanity Schema Types</a>  
 - To UI-defined content models  
-  https://www.contentful.com/developers/docs/concepts/data-model/
+  <a href="https://www.contentful.com/developers/docs/concepts/data-model/" target="_blank" rel="noopener noreferrer">Content Modeling</a>  
 
 ### Operations
-- Vendor-managed SaaS infrastructure
-- Enterprise SLA (enterprise plans)
+- Vendor-managed SaaS infrastructure  
+- Enterprise SLA (enterprise plans)  
 
 ---
 
@@ -79,44 +79,44 @@ title: My Page
 ## 3.1 Content Model Migration
 
 - Rebuild schemas in Contentful  
-  https://www.contentful.com/developers/docs/concepts/data-model/
+  <a href="https://www.contentful.com/developers/docs/concepts/data-model/" target="_blank" rel="noopener noreferrer">Content Modeling Guide</a>  
 - Map document types and references  
-  https://www.contentful.com/developers/docs/concepts/links/
+  <a href="https://www.contentful.com/developers/docs/concepts/links/" target="_blank" rel="noopener noreferrer">Links & References</a>  
 - Translate custom Sanity field types  
-  https://www.sanity.io/docs/schema-types
+  <a href="https://www.sanity.io/docs/schema-types" target="_blank" rel="noopener noreferrer">Sanity Schema Types</a>  
 - Replace GROQ queries  
-  https://www.sanity.io/docs/groq  
+  <a href="https://www.sanity.io/docs/groq" target="_blank" rel="noopener noreferrer">GROQ Documentation</a>  
   With GraphQL or REST  
-  https://www.contentful.com/developers/docs/references/graphql/
+  <a href="https://www.contentful.com/developers/docs/references/graphql/" target="_blank" rel="noopener noreferrer">GraphQL API</a>  
 
 ### Risks
 - Loss of custom logic embedded in Sanity schemas  
-  https://www.sanity.io/docs/schema-types
+  <a href="https://www.sanity.io/docs/schema-types" target="_blank" rel="noopener noreferrer">Schema Types</a>  
 - Validation logic must be recreated  
-  https://www.contentful.com/developers/docs/concepts/validations/
+  <a href="https://www.contentful.com/developers/docs/concepts/validations/" target="_blank" rel="noopener noreferrer">Validations</a>  
 
 ---
 
 ## 3.2 Data Migration
 
 - Export dataset from Sanity  
-  https://www.sanity.io/docs/exporting-data
-- Transform JSON structure
+  <a href="https://www.sanity.io/docs/exporting-data" target="_blank" rel="noopener noreferrer">Exporting Data</a>  
+- Transform JSON structure  
 - Import into Contentful via Management API  
-  https://www.contentful.com/developers/docs/references/content-management-api/
+  <a href="https://www.contentful.com/developers/docs/references/content-management-api/" target="_blank" rel="noopener noreferrer">Content Management API</a>  
 - Re-link references and assets  
-  https://www.contentful.com/developers/docs/concepts/assets/
+  <a href="https://www.contentful.com/developers/docs/concepts/assets/" target="_blank" rel="noopener noreferrer">Assets Documentation</a>  
 
 ---
 
 ## 3.3 Frontend Impact
 
 - Replace GROQ with GraphQL or REST  
-  https://www.contentful.com/developers/docs/references/graphql/
+  <a href="https://www.contentful.com/developers/docs/references/graphql/" target="_blank" rel="noopener noreferrer">GraphQL API</a>  
 - Update SDK usage  
-  https://www.contentful.com/developers/docs/javascript/tutorials/
+  <a href="https://www.contentful.com/developers/docs/javascript/tutorials/" target="_blank" rel="noopener noreferrer">JavaScript SDK</a>  
 - Rebuild preview functionality  
-  https://www.contentful.com/developers/docs/references/content-preview-api/
+  <a href="https://www.contentful.com/developers/docs/references/content-preview-api/" target="_blank" rel="noopener noreferrer">Preview API</a>  
 
 ---
 
@@ -126,62 +126,41 @@ title: My Page
 
 **Sanity**
 - Highly customizable Studio  
-  https://www.sanity.io/docs/studio
+  <a href="https://www.sanity.io/docs/studio" target="_blank" rel="noopener noreferrer">Sanity Studio</a>  
 - Schema-as-code flexibility  
-  https://www.sanity.io/docs/schema-types
+  <a href="https://www.sanity.io/docs/schema-types" target="_blank" rel="noopener noreferrer">Schema Types</a>  
 
 **Contentful**
 - Opinionated content modeling  
-  https://www.contentful.com/developers/docs/concepts/data-model/
+  <a href="https://www.contentful.com/developers/docs/concepts/data-model/" target="_blank" rel="noopener noreferrer">Content Modeling</a>  
 - Structured editor UI  
-  https://www.contentful.com/developers/docs/concepts/editor-interfaces/
-
----
-
-## 4.2 Page Building & Marketing Flexibility
-
-- Modular content blocks approach  
-  https://www.contentful.com/r/knowledgebase/content-modelling/
-- App Framework for integrations  
-  https://www.contentful.com/developers/docs/extensibility/app-framework/
-
----
-
-## 4.3 Governance & Roles
-
-- Roles & permissions  
-  https://www.contentful.com/help/roles-and-permissions/
-- Environments for staging/production  
-  https://www.contentful.com/developers/docs/concepts/multiple-environments/
-- Versioning  
-  https://www.contentful.com/developers/docs/concepts/entries/
+  <a href="https://www.contentful.com/developers/docs/concepts/editor-interfaces/" target="_blank" rel="noopener noreferrer">Editor Interfaces</a>  
 
 ---
 
 # 5. Cost & Licensing Considerations
 
 - Pricing tiers  
-  https://www.contentful.com/pricing/
+  <a href="https://www.contentful.com/pricing/" target="_blank" rel="noopener noreferrer">Pricing</a>  
 - API usage limits  
-  https://www.contentful.com/developers/docs/references/content-delivery-api/
+  <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/" target="_blank" rel="noopener noreferrer">Content Delivery API</a>  
 - Seat-based pricing  
-  https://www.contentful.com/pricing/
+  <a href="https://www.contentful.com/pricing/" target="_blank" rel="noopener noreferrer">Pricing Overview</a>  
 
 ---
 
 # 6. Migration Effort Estimate
 
-## Phases
 1. Content model redesign  
-   https://www.contentful.com/developers/docs/concepts/data-model/
+   <a href="https://www.contentful.com/developers/docs/concepts/data-model/" target="_blank" rel="noopener noreferrer">Content Modeling Guide</a>  
 2. Data export  
-   https://www.sanity.io/docs/exporting-data
+   <a href="https://www.sanity.io/docs/exporting-data" target="_blank" rel="noopener noreferrer">Sanity Export</a>  
 3. Data import  
-   https://www.contentful.com/developers/docs/references/content-management-api/
+   <a href="https://www.contentful.com/developers/docs/references/content-management-api/" target="_blank" rel="noopener noreferrer">Content Management API</a>  
 4. Frontend refactor  
-   https://www.contentful.com/developers/docs/references/graphql/
-5. QA & validation
-6. Editorial training
+   <a href="https://www.contentful.com/developers/docs/references/graphql/" target="_blank" rel="noopener noreferrer">GraphQL API</a>  
+5. QA & validation  
+6. Editorial training  
 
 ---
 
@@ -189,33 +168,24 @@ title: My Page
 
 ## Enterprise Stability
 - Enterprise offering  
-  https://www.contentful.com/enterprise/
+  <a href="https://www.contentful.com/enterprise/" target="_blank" rel="noopener noreferrer">Enterprise Overview</a>  
 
 ## Structured Omnichannel Content
 - API-first architecture  
-  https://www.contentful.com/developers/docs/concepts/apis/
-
-## Reduced Custom Infrastructure
-- Fully managed SaaS model
+  <a href="https://www.contentful.com/developers/docs/concepts/apis/" target="_blank" rel="noopener noreferrer">API Concepts</a>  
 
 ## Ecosystem & Integrations
 - Marketplace & Apps  
-  https://www.contentful.com/marketplace/
+  <a href="https://www.contentful.com/marketplace/" target="_blank" rel="noopener noreferrer">Marketplace</a>  
 
 ---
 
 # 8. Risks & Tradeoffs
 
-## Loss of Flexibility
-- No schema-as-code  
-  https://www.sanity.io/docs/schema-types
-
-## Vendor Lock-In
-- Proprietary SaaS architecture
-
-## Increased Costs at Scale
-- API metering  
-  https://www.contentful.com/developers/docs/references/content-delivery-api/
+- Loss of schema-as-code  
+  <a href="https://www.sanity.io/docs/schema-types" target="_blank" rel="noopener noreferrer">Sanity Schema Types</a>  
+- API metering & scale considerations  
+  <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/" target="_blank" rel="noopener noreferrer">Content Delivery API</a>  
 
 ---
 
@@ -223,15 +193,15 @@ title: My Page
 
 ## Migration Makes Sense If:
 - Governance & roles are critical  
-  https://www.contentful.com/help/roles-and-permissions/
+  <a href="https://www.contentful.com/help/roles-and-permissions/" target="_blank" rel="noopener noreferrer">Roles & Permissions</a>  
 - Enterprise SLA required  
-  https://www.contentful.com/enterprise/
+  <a href="https://www.contentful.com/enterprise/" target="_blank" rel="noopener noreferrer">Enterprise</a>  
 
 ## Staying with Sanity Makes Sense If:
 - Heavy schema customization required  
-  https://www.sanity.io/docs/schema-types
+  <a href="https://www.sanity.io/docs/schema-types" target="_blank" rel="noopener noreferrer">Schema Types</a>  
 - Advanced querying with GROQ is critical  
-  https://www.sanity.io/docs/groq
+  <a href="https://www.sanity.io/docs/groq" target="_blank" rel="noopener noreferrer">GROQ</a>  
 
 ---
 
@@ -240,4 +210,10 @@ title: My Page
 Before committing:
 
 - Conduct a content model mapping exercise  
-  https://www.contentful.com/developers/docs/concepts/data-m
+  <a href="https://www.contentful.com/developers/docs/concepts/data-model/" target="_blank" rel="noopener noreferrer">Content Modeling</a>  
+- Estimate migration complexity  
+  <a href="https://www.sanity.io/docs/exporting-data" target="_blank" rel="noopener noreferrer">Sanity Export</a>  
+- Compare total cost of ownership  
+  <a href="https://www.contentful.com/pricing/" target="_blank" rel="noopener noreferrer">Pricing</a>  
+- Align with long-term architecture strategy  
+
