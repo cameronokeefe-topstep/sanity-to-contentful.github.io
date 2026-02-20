@@ -62,5 +62,6 @@ td  {
 pre.highlight{
   padding:20px;
   border-radius: 20px;
-  background-color: black;
+  color: #fff;
+  background-color: #000;
 }
