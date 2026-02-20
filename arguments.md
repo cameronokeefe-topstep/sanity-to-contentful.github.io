@@ -9,6 +9,8 @@ title: Arguments
 ### What Contentful has to say:
 <a href="https://www.contentful.com/resources/sanity-vs-contentful/" target="_blank">https://www.contentful.com/resources/sanity-vs-contentful/</a>
 
+---
+
 # 🎨 Design Flexibility
 
 ## Sanity Pros
