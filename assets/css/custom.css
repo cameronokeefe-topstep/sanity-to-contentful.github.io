@@ -1,7 +1,17 @@
 body {
+  margin:0;
+  padding:0;
+  color: #fff;
   background-color: #111;
 }
 
-h1 {
-  color: #ff4d4d;
+main {
+  max-width: 960px;
+  margin:0 auto;
+  padding:60px;
+}
+
+a {
+  color: #fff;
+  text-decoration: underlin;
 }
