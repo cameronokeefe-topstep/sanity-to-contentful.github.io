@@ -3,6 +3,12 @@ layout: default
 title: Arguments
 ---
 
+### What Sanity has to say:
+<a href="https://www.sanity.io/contentful-vs-sanity" target="_blank">https://www.sanity.io/contentful-vs-sanity</a>
+
+### What Contentful has to say:
+<a href="https://www.contentful.com/resources/sanity-vs-contentful/" target="_blank">https://www.contentful.com/resources/sanity-vs-contentful/</a>
+
 # 🎨 Design Flexibility
 
 ## Sanity Pros
