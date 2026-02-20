@@ -125,6 +125,29 @@ This section identifies potential downsides of migration, including reduced sche
 - API rate limits  
   <a href="https://www.contentful.com/developers/docs/references/content-delivery-api/" target="_blank" rel="noopener noreferrer">Content Delivery API</a>  
 
+  ### Schema-as-Code (Deep Dive)
+
+    Schema-as-code means your CMS content model is defined in code (JavaScript/TypeScript), versioned in Git, and deployed like application logic — instead of being configured only through a web UI.
+
+    This approach treats your content structure as part of your product architecture, not just CMS configuration.
+    
+
+    ### What Schema-as-Code Actually Looks Like
+
+    In a schema-as-code system (like Sanity), you define content types programmatically:
+
+    ```ts
+    export default {
+      name: 'landingPage',
+      type: 'document',
+      fields: [
+        { name: 'title', type: 'string', validation: Rule => Rule.required() },
+        { name: 'slug', type: 'slug' },
+        { name: 'sections', type: 'array', of: [{ type: 'hero' }, { type: 'faq' }] }
+      ]
+    }
+    ```
+
 ---
 
 # 10. Decision Framework & Recommendation
